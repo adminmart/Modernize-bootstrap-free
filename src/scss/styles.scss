@@ -9,7 +9,7 @@
 // Import all of Bootstrap's CSS
 @import "variables/variables";
 @import "~bootstrap/scss/bootstrap";
-@import "~bootstrap/scss/tooltip";
+
 
 
 // All the extended and custom variables(Required file)
@@ -17,12 +17,9 @@
 @import "variables/theme-variables";
 
 
-// Scrollbar style (Required file)
-@import "../../assets/libs/node_modules/simplebar/dist/simplebar.css";
-
 
 // Tabler Icons style
-@import "../../dist/css/icons/tabler-icons/tabler-icons.css";
+@import "./tabler-icons/tabler-icons.css";
 
 // Theme Layouts style (Required file)
 @import "../scss/layouts/sidebar";

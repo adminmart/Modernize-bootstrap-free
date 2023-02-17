@@ -1,6 +1,6 @@
 {
-  "name": "vite",
-  "description": "Include Bootstrap's source Sass and individual JavaScript plugins with Vite.",
+  "name": "Modernize-Free-Bootstrap-Admin-Template",
+  "description": "Modernize Free Bootstrap Admin",
   "version": "0.0.0",
   "private": true,
   "stackblitz": {
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@tabler/icons": "^2.4.0",
     "apexcharts": "^3.37.0",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3"

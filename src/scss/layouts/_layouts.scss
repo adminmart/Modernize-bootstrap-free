@@ -1,0 +1,209 @@
+// ----------------------------------------------
+// Layout Style
+// ----------------------------------------------
+
+.page-wrapper {
+    position: relative;
+  
+  }
+  
+  .body-wrapper {
+    position: relative;
+  
+    >.container-fluid {
+      max-width: $boxed-width;
+      margin: 0 auto;
+      padding: $grid-gutter-width;
+      transition: 0.2s ease-in;
+    }
+  }
+  
+  @include media-breakpoint-down(md) {
+    .body-wrapper {
+      >.container-fluid {
+        padding: 30px 20px;
+      }
+    }
+  }
+  
+  .simplebar-scrollbar:before {
+    background: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  #main-wrapper[data-layout="vertical"] {
+  
+    // Sidebar position
+    &[data-sidebar-position="fixed"] {
+      .left-sidebar {
+        position: fixed;
+        top: 0;
+      }
+    }
+  
+    // Header position
+    &[data-header-position="fixed"] {
+      .app-header {
+        position: fixed;
+        z-index: 10;
+      }
+  
+      .body-wrapper {
+        >.container-fluid {
+          padding-top: calc(#{$header-height} + 15px);
+        }
+      }
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    #main-wrapper[data-layout="vertical"] {
+  
+      // Fixed Header + Minisidebar
+      &[data-header-position="fixed"][data-sidebartype="mini-sidebar"] {
+        .app-header {
+          width: calc(100%);
+        }
+      }
+  
+      // Header position
+      &[data-header-position="fixed"] {
+        .app-header {
+          width: calc(100% - #{$sidebar-width-full});
+        }
+      }
+  
+      // Full Sidebar
+      &[data-sidebartype="full"] {
+        .body-wrapper {
+          margin-left: $sidebar-width-full;
+        }
+      }
+  
+      // Minisidebar
+      &[data-sidebartype="mini-sidebar"] {
+        // .body-wrapper {
+        //   margin-left: $sidebar-width-mini;
+        // }
+  
+        .nav-small-cap {
+          text-align: center;
+  
+          .nav-small-cap-icon {
+            display: inline-block;
+          }
+        }
+  
+        .logo-img {
+          width: 40px;
+          overflow: hidden;
+  
+        }
+  
+        // Sidebar
+        .sidebar-nav {
+          .has-arrow::after {
+            display: none;
+          }
+  
+          .sidebar-list {
+            .sidebar-list-item {
+              text-align: center;
+            }
+          }
+        }
+  
+        .left-sidebar {
+          width: $sidebar-width-mini;
+  
+          .scroll-sidebar {
+  
+            height: calc(100vh - 50px);
+          }
+  
+          .hide-menu,
+          .sidebar-ad {
+            display: none;
+          }
+  
+          .sidebar-nav ul .sidebar-item .sidebar-link {
+            padding: 11px 9px
+          }
+  
+          &:hover {
+            width: $sidebar-width-full;
+  
+            .logo-img {
+              width: 100%;
+            }
+  
+            .nav-small-cap {
+              text-align: left;
+  
+              .nav-small-cap-icon {
+                display: none;
+              }
+            }
+  
+            z-index: 50;
+  
+            .hide-menu,
+            .sidebar-nav .has-arrow::after,
+            .sidebar-ad {
+              display: inline-block;
+            }
+  
+            .sidebar-nav {
+              ul .sidebar-item .sidebar-link {
+                padding: 11px 15px;
+              }
+  
+              .sidebar-list {
+                .sidebar-list-item {
+                  text-align: left;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  //
+  // Responsive view (below desktop view)
+  //
+  @media (max-width: 1023px) {
+    #main-wrapper[data-layout="vertical"] {
+  
+      &[data-sidebartype="mini-sidebar"] {
+        .left-sidebar {
+          left: -$sidebar-width-full;
+        }
+      }
+  
+      &[data-sidebartype="full"] {
+        &.show-sidebar {
+          .left-sidebar {
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+  
+  .hover-img {
+    transition: all 0.2s ease-in 0s;
+  
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+  
+  .z-1 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .text-bodycolor {
+    color: $body-color !important;
+  }

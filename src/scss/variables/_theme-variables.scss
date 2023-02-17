@@ -1,0 +1,76 @@
+// ----------------------------------------------
+// Theme Variables Style
+// ----------------------------------------------
+
+
+// ----------------------------------------------
+// Skins
+// ----------------------------------------------
+$skin1: #0085db;
+$skin2: #8763da;
+$skin3: #fb977d;
+$skin4: #4bd08b;
+$skin5: #131927;
+$skin6: $white;
+
+$skin1-bluetheme-primary: #5d87ff;
+$skin1-bluetheme-secondary: #49beff;
+$skin2-aquatheme-primary: #0074ba;
+$skin2-aquatheme-secondary: #47d7bc;
+$skin3-purpletheme-primary: #763ebd;
+$skin3-purpletheme-secondary: #95cfd5;
+$skin4-greentheme-primary: #0a7ea4;
+$skin4-greentheme-secondary: #ccda4e;
+$skin5-cyantheme-primary: #01c0c8;
+$skin5-cyantheme-secondary: #fb9678;
+$skin6-orangetheme-primary: #fa896b;
+$skin6-orangetheme-secondary: #0074ba;
+
+
+// ----------------------------------------------
+// Header
+// ----------------------------------------------
+
+$header-height: 70px;
+$navlink-padding: 8px 16px;
+$header-shadow: 1px 0px 20px 0px rgb(0 0 0 / 12%);
+
+// ----------------------------------------------
+// Sidebar
+// ---------------------------------------------- 
+$custom-gray : #7C8FAC;
+$sidebar-text: $dark;
+
+$sidebar-link-padding: 12px 15px;
+$sidebar-icon-size: 23px;
+$sidebar-first-level-padding: 0 0 10px 0;
+$sidebar-first-level-link-padding: 10px 15px;
+$sidebar-first-level-icon-size: 14px;
+
+$sidebar-width-full: 270px;
+$sidebar-width-iconbar: 180px;
+$sidebar-width-mini: 87px;
+$sidebar-spacing-x: 0 24px;
+$link-disabled: 0.38;
+
+// ----------------------------------------------
+// Horizontal Layout
+// ----------------------------------------------
+
+$boxed-width: 1200px; // boxed layout width
+$horizontal-boxed-page-breadcrumb-container-padding-lg: 20px 10px;
+$horizontal-pagewrapper-padding-top-lg: 200px;
+$horizontal-pagewrapper-padding-top-sm: 115px;
+
+// sidebar
+$sidebar-height: 65px;
+$sidebar-li-width: 240px;
+$sidebar-first-level-width: 400px;
+
+$horizontal-list-shadow: 0 15px 30px rgb(0 0 0 / 12%);
+
+// ----------------------------------------------
+// RTL Layout
+// ----------------------------------------------
+$rtl-sidebar-link-padding: inherit;
+$rtl-sidebar-first-level-link-padding: inherit;

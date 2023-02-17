@@ -1,0 +1,45 @@
+//
+// Bring in Bootstrap
+//
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+// Option 1
+//
+// Import all of Bootstrap's CSS
+@import "variables/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/tooltip";
+
+
+// All the extended and custom variables(Required file)
+
+@import "variables/theme-variables";
+
+
+// Scrollbar style (Required file)
+@import "../../assets/libs/node_modules/simplebar/dist/simplebar.css";
+
+
+// Tabler Icons style
+@import "../../dist/css/icons/tabler-icons/tabler-icons.css";
+
+// Theme Layouts style (Required file)
+@import "../scss/layouts/sidebar";
+@import "../scss/layouts/header";
+@import "../scss/layouts/layouts";
+
+
+// Component style (Required file)
+
+@import "../scss/component/reboot";
+@import "../scss/component/card";
+
+
+// Utilities style (Required file)
+@import "../scss/utilities/icon-size";
+@import "../scss/utilities/background";
+
+
+// Pages style (Required file)
+@import "../scss/pages/dashboard1";

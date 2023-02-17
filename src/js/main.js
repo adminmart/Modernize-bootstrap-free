@@ -1,6 +1,6 @@
 // Import our custom CSS
 import '../scss/styles.scss'
-import './dashboard';
+// import './dashboard';
 import './app.min';
 
 // Import all of Bootstrap's JS

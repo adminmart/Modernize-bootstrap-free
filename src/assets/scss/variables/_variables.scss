@@ -86,26 +86,6 @@ $spacers: (
   9: 20px,
   ) !default;
 
-$utilities: (
-  ) !default;
-$utilities: (
-  "width": (property: width,
-    class: w,
-    values: (20: 20%,
-      25: 25%,
-      30: 30%,
-      40: 40%,
-      50: 50%,
-      60: 60%,
-      70: 70%,
-      75: 75%,
-      85: 85%,
-      100: 100%,
-      auto: auto,
-    ),
-  ),
-);
-
 // Common
 $min-contrast-ratio: 1.7 !default;
 
@@ -145,13 +125,7 @@ $font-sizes: (
   4: 16px,
   5: 18px,
   6: 20px,
-  7: 24px,
   8: 30px,
-  9: 36px,
-  10: 40px,
-  11: 45px,
-  12: 48px,
-  13: 55px,
   ) !default;
 $font-size-base: 0.875rem !default;
 
@@ -170,12 +144,6 @@ $headings-font-weight: 500 !default;
 
 // Border Color
 $border-color: #ebf1f6 !default;
-
-// Box Shadow
-$box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.12) !default;
-$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075) !default;
-$box-shadow-lg: 0 1rem 3rem rgba($black, 0.175) !default;
-$box-shadow-inset: unset !default;
 
 // Card
 $card-title-color: $dark !default;
@@ -210,20 +178,6 @@ $table-striped-bg: $gray-200 !default;
 $table-hover-bg: $gray-100 !default;
 $table-border-color: $border-color !default;
 
-
-// Tabs
-$nav-link-color: $dark !default;
-$nav-link-hover-color: $dark !default;
-$nav-tabs-link-active-color: $white !default;
-$nav-tabs-link-active-bg: $primary !default;
-$nav-tabs-border-radius: 10px !default;
-$nav-tabs-border-width: 0 !default;
-$nav-link-font-size: 16px !default;
-$nav-link-font-weight: $font-weight-normal !default;
-
-// Tooltips
-$tooltip-font-size: 12px !default;
-$tooltip-bg: $dark;
 
 // Input
 $form-label-color: $gray-600;

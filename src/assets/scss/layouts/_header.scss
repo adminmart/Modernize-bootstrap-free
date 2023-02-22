@@ -86,18 +86,6 @@
   }
 }
 
-.profile-name {
-  color: $white;
-}
-
-.message-body {
-  max-height: 360px;
-}
-
-.arrow-none.dropdown-toggle::after {
-  display: none;
-}
-
 .navbar-nav .dropdown-menu {
   position: absolute;
   min-width: 200px;
@@ -106,23 +94,6 @@
     border-radius: 8px;
   }
 
-}
-
-.navbar-nav {
-  .hover-dd {
-    position: static;
-
-    .dropdown-menu-nav {
-      max-width: 860px;
-      width: 100%;
-    }
-
-    &:hover {
-      .dropdown-menu {
-        display: block;
-      }
-    }
-  }
 }
 
 .notification {
@@ -134,66 +105,19 @@
   height: 8px;
 }
 
-.notify-badge {
-  position: relative;
-
-  .badge {
-    width: 18px;
-    height: 18px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 16px;
-    right: 6px;
-  }
-}
-
-.profile-dropdown {
-  max-height: 100vh;
-}
-
-.mobile-navbar {
-  height: calc(100vh - 40px);
-}
-
-.shopping-cart {
-  width: 330px !important;
-}
-
 @include media-breakpoint-down(lg) {
   .app-header {
-    &.fixed-header {
-      .navbar-collapse {
-        padding: 0 0px;
-      }
-    }
     .navbar {
       flex-wrap: nowrap;
-      .navbar-nav{
+
+      .navbar-nav {
         flex-direction: row;
       }
     }
   }
-
-  .navbar-collapse {
-
-    border-top: 1px solid $border-color;
-    padding: 0 15px;
-    background-color: $white;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
 }
 
 @include media-breakpoint-down(md) {
-  .app-header {
-    .container-fluid {
-      padding: 0 20px;
-    }
-  }
-
   .navbar-nav .dropdown-menu {
     position: absolute;
     width: 100%;
@@ -202,14 +126,6 @@
   .navbar-nav .nav-item.dropdown {
     position: static;
   }
-}
-
-.searchbar {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 110;
 }
 
 @-webkit-keyframes animation-dropdown-menu-move-up-scroll {
@@ -275,26 +191,5 @@
 @include media-breakpoint-down(lg) {
   .w-xs-100 {
     width: 100% !important;
-  }
-}
-
-
-#main-wrapper[data-layout="vertical"] {
-  .app-header {
-    &.fixed-header {
-      transition: 0.2s ease-in;
-
-      .notification {
-        top: 20px;
-      }
-
-      .navbar {
-        background: $white;
-        padding: 0 15px;
-        border-radius: $border-radius-lg;
-        box-shadow: $header-shadow;
-        margin-top: 15px;
-      }
-    }
   }
 }

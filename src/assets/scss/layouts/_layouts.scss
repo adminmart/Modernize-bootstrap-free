@@ -103,20 +103,3 @@
 
   }
 }
-
-.hover-img {
-  transition: all 0.2s ease-in 0s;
-
-  &:hover {
-    transform: scale(1.01);
-  }
-}
-
-.z-1 {
-  position: relative;
-  z-index: 1;
-}
-
-.text-bodycolor {
-  color: $body-color !important;
-}

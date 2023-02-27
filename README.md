@@ -1,9 +1,9 @@
-# <a href="https://modernize-vue3-free.netlify.app/?ref=5">Modernize-vuejs-free</a>
+# <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html/?ref=5">Modernize Free Bootstrap</a>
 Modernize vue3 + vite + typescript +vuetify 3 admin Template
 
 <!-- Main image of Template -->
-<a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-free-vuetify-admin-dashboard-am.png" />
+<a target="_blank" href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modenize-free-bootstrap-admin-template.png" />
 </a>
 
 

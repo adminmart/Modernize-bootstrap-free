@@ -1,5 +1,5 @@
 # <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html/?ref=5">Modernize Free Bootstrap</a>
-Modernize vue3 + vite + typescript +vuetify 3 admin Template
+Modernize Bootstrap 5 admin Template
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">

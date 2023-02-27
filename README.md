@@ -19,18 +19,18 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
 <tbody>
 <tr>
   <td>
-    <a href="https://modernize-vue3-free.netlify.app/?ref=5">Live Preview</a>
+    <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html/?ref=5">Live Preview</a>
   </td>
   <td>
-  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Live Preview</a>
+  <a href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/landingpage/index.html/?ref=5">Live Preview</a>
   </td>
 </tr>
 <tr>
   <td>
-    <a href="https://adminmart.com/product/modernize-free-vuetify-vue-js-admin-dashboard/?ref=5">Download Now</a>
+    <a href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">Download Now</a>
   </td>
   <td>
-    <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">Purchase Now</a>
+    <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Purchase Now</a>
   </td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
   1 Basic Dashboard
   </td>
   <td>
-  2+ Stunning Dashboards
+  6+ Stunning Dashboards
   </td>
 </tr>
 <tr>
@@ -51,10 +51,10 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
 </tr>
 <tr>
   <td>
-  Vuetify 3
+  Bootstrap 5 Version
   </td>
   <td>
-  Vuetify 3
+  Bootstrap 5 Version
   </td>
 </tr>
 <tr>
@@ -67,10 +67,10 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
 </tr>
 <tr>
   <td>
-  7+ Pages Template
+  10+ Pages Template
   </td>
   <td>
-  50+ Page Templates
+  425+ Page Templates
   </td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
   5+ UI Components
   </td>
   <td>
-  45+ UI Components
+  100+ UI Components
   </td>
 </tr>
 <tr>
@@ -103,6 +103,30 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
   </td>
   <td>
   Easy To Customize
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  Right-to-Left(RTL) Verion
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  25+ Integrated Plugins
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  1 Year Premium Support
   </td>
 </tr>
 </tbody>

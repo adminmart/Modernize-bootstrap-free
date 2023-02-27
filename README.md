@@ -15,8 +15,8 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
 <table>
 <thead>
 <tr>
-<th>Modernize Vuejs Free Version</th>
-<th>Modernize Vuejs Pro Version</th>
+<th>Modernize Bootstrap Free Version</th>
+<th>Modernize Bootstrap Pro Version</th>
 </tr>
 </thead>
 <tbody>
@@ -152,12 +152,12 @@ Modernize vue3 + vite + typescript +vuetify 3 admin Template
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://modernize-vuejs.adminmart.com/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard.png" alt="">
+<a target="_blank" href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template.png" alt="">
 </a>
 <p>
   Checkout our premium version of Modernize Vue Admin Lite for lots more features and ready to use page templates.<br>
-  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?         ref=5">Download</a>
+  <a href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/landingpage/index.html/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Download</a>
 </p>
 
 

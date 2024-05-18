@@ -1,4 +1,4 @@
-# <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html/?ref=5">Modernize Free Bootstrap</a>
+# <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html">Modernize Free Bootstrap</a>
 Modernize Bootstrap 5 admin Template
 
 <!-- Main image of Template -->
@@ -19,10 +19,10 @@ Modernize Bootstrap 5 admin Template
 <tbody>
 <tr>
   <td>
-    <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html/?ref=5">Live Preview</a>
+    <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/landingpage/index.html/?ref=5">Live Preview</a>
+  <a href="https://bootstrapdemos.adminmart.com/modernize/dist/main/index.html">Live Preview</a>
   </td>
 </tr>
 <tr>
@@ -178,7 +178,7 @@ Modernize Bootstrap 5 admin Template
 </a>
 <p>
   Checkout our premium version of Modernize Bootstrap Admin Lite for lots more features and ready to use page templates.<br>
-  <a href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/landingpage/index.html/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Download</a>
+  <a href="https://bootstrapdemos.adminmart.com/modernize/dist/main/index.html">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Download</a>
 </p>
 
 

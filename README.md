@@ -3,7 +3,7 @@ Modernize Bootstrap 5 admin Template
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modenize-free-bootstrap-admin-template.png" />
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modenize-free-bootstrap-admin-template-min.png" />
 </a>
 
 
@@ -148,17 +148,17 @@ Modernize Bootstrap 5 admin Template
 <tr>
 <td>
   <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5" rel="nofollow" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template.png" alt="" style="max-width:150px;">
+    <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template-min.png" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=5" rel="nofollow" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2023/01/image_2023_01_26T10_19_25_019Z.png" alt="" style="max-width:150px;">
+    <img src="https://adminmart.com/wp-content/uploads/2023/01/image_2023_01_26T10_19_25_019Z-min.png" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5" rel="nofollow" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard.png" alt="" style="max-width:150px;">
+    <img src="https://adminmart.com/wp-content/uploads/2024/05/matdash-vuetify-vuejs-admin-dashboard.png" alt="" style="max-width:150px;">
   </a>
 </td>
   <td>
@@ -174,7 +174,7 @@ Modernize Bootstrap 5 admin Template
 # Upgrade to Premium version
 
 <a target="_blank" href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template.png" alt="">
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template-min.png" alt="">
 </a>
 <p>
   Checkout our premium version of Modernize Bootstrap Admin Lite for lots more features and ready to use page templates.<br>

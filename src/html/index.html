@@ -1,0 +1,2403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modernize Free Bootstrap Admin Template by Adminmart</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+  <link rel="stylesheet" href="../assets/css/styles.min.css" />
+</head>
+
+<body>
+  <!--  Body Wrapper -->
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+
+    <!--  App Topstrip -->
+    <div class="app-topstrip bg-dark py-6 px-3 w-100 d-lg-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center justify-content-center gap-5 mb-2 mb-lg-0">
+        <a class="d-flex justify-content-center" href="https://adminmart.com/" target="_blank">
+          <img src="../assets/images/logos/logo-adminmart.svg" alt="">
+        </a>
+
+        <div class="d-none d-xl-flex align-items-center gap-3">
+          <a href="https://adminmart.com/support/"
+            class="btn btn-outline-primary d-flex align-items-center gap-1 border-0 text-white px-6">
+            <i class="ti ti-lifebuoy fs-5"></i>
+            Support
+          </a>
+          <a href="https://adminmart.com/"
+            class="btn btn-outline-primary d-flex align-items-center gap-1 border-0 text-white px-6">
+            <i class="ti ti-gift fs-5"></i>
+            Templates
+          </a>
+          <a href="https://adminmart.com/hire-us/"
+            class="btn btn-outline-primary d-flex align-items-center gap-1 border-0 text-white px-6">
+            <i class="ti ti-briefcase fs-5"></i>
+            Hire Us
+          </a>
+        </div>
+      </div>
+
+      <div class="d-lg-flex align-items-center gap-2">
+        <h3 class="text-white mb-2 mb-lg-0 fs-5 text-center">Check Modernize Premium Version</h3>
+        <div class="d-flex align-items-center justify-content-center gap-2">
+          <div class="dropdown d-flex">
+            <a class="btn btn-outline-primary d-flex align-items-center gap-1" href="javascript:void(0)" id="drop3"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="ti ti-device-laptop fs-5"></i>
+              Live Preview
+              <i class="ti ti-chevron-down fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop3">
+              <div class="message-body">
+                <a target="_blank" href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  Bootstrap Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  Angular Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  VueJs Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  NextJs Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  React Preview
+                </a>
+                <a target="_blank"
+                  href="https://adminmart.com/product/modernize-tailwind-nextjs-dashboard-template/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  Tailwind Preview
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown d-flex">
+            <a class="btn btn-primary d-flex align-items-center gap-1 " href="javascript:void(0)" id="drop4"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="ti ti-shopping-cart fs-5"></i>
+              Buy Now
+              <i class="ti ti-chevron-down fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop4">
+              <div class="message-body">
+                <a target="_blank" href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  Bootstrap Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  Angular Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  VueJs Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  NextJs Preview
+                </a>
+                <a target="_blank" href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  React Preview
+                </a>
+                <a target="_blank"
+                  href="https://adminmart.com/product/modernize-tailwind-nextjs-dashboard-template/?ref=56"
+                  class="dropdown-item d-flex align-items-center gap-1">
+                  <i class="ti ti-external-link fs-5"></i>
+                  Tailwind Preview
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Sidebar Start -->
+    <aside class="left-sidebar">
+      <!-- Sidebar scroll-->
+      <div>
+        <div class="brand-logo d-flex align-items-center justify-content-between">
+          <a href="./index.html" class="text-nowrap logo-img">
+            <img src="../assets/images/logos/logo.svg" alt="" />
+          </a>
+          <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+            <i class="ti ti-x fs-6"></i>
+          </div>
+        </div>
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
+          <ul id="sidebarnav">
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Home</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./index.html" aria-expanded="false">
+                <i class="ti ti-atom"></i>
+                <span class="hide-menu">Dashboard</span>
+              </a>
+            </li>
+            <!-- ---------------------------------- -->
+            <!-- Dashboard -->
+            <!-- ---------------------------------- -->
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/index.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-aperture"></i>
+                  </span>
+                  <span class="hide-menu">Analytical</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/index2.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-shopping-cart"></i>
+                  </span>
+                  <span class="hide-menu">eCommerce</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout-grid"></i>
+                  </span>
+                  <span class="hide-menu">Front Pages</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/frontend-landingpage.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Homepage</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/frontend-aboutpage.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">About Us</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/frontend-blogpage.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Blog</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/frontend-blogdetailpage.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Blog Details</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/frontend-contactpage.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Contact Us</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/frontend-portfoliopage.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Portfolio</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/frontend-pricingpage.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Pricing</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Apps</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-basket"></i>
+                  </span>
+                  <span class="hide-menu">Ecommerce</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/eco-shop.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Shop</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/eco-shop-detail.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Details</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/eco-product-list.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">List</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/eco-checkout.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Checkout</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/eco-add-product.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Add Product</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/eco-edit-product.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Edit Product</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-chart-donut-3"></i>
+                  </span>
+                  <span class="hide-menu">Blog</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/blog-posts.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Blog Posts</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/blog-detail.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Blog Details</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/page-user-profile.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-user-circle"></i>
+                  </span>
+                  <span class="hide-menu">User Profile</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-email.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-mail"></i>
+                  </span>
+                  <span class="hide-menu">Email</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-calendar.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-calendar"></i>
+                  </span>
+                  <span class="hide-menu">Calendar</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-kanban.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout-kanban"></i>
+                  </span>
+                  <span class="hide-menu">Kanban</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-chat.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-message-dots"></i>
+                  </span>
+                  <span class="hide-menu">Chat</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-notes.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-notes"></i>
+                  </span>
+                  <span class="hide-menu">Notes</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-contact.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-phone"></i>
+                  </span>
+                  <span class="hide-menu">Contact Table</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-contact2.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-list-details"></i>
+                  </span>
+                  <span class="hide-menu">Contact List</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/app-invoice.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-file-text"></i>
+                  </span>
+                  <span class="hide-menu">Invoice</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Pages</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/pages-animation.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-accessible"></i>
+                  </span>
+                  <span class="hide-menu">Animation</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/pages-search-result.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-user-search"></i>
+                  </span>
+                  <span class="hide-menu">Search Result</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/pages-gallery.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-brand-google-photos"></i>
+                  </span>
+                  <span class="hide-menu">Gallery</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/pages-treeview.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-masks-theater"></i>
+                  </span>
+                  <span class="hide-menu">Treeview</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/pages-block-ui.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-arrows-maximize"></i>
+                  </span>
+                  <span class="hide-menu">Block-Ui</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/pages-session-timeout.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-sort-ascending"></i>
+                  </span>
+                  <span class="hide-menu">Session Timeout</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/page-pricing.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-currency-dollar"></i>
+                  </span>
+                  <span class="hide-menu">Pricing</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/page-faq.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-help"></i>
+                  </span>
+                  <span class="hide-menu">FAQ</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/page-account-settings.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-user-circle"></i>
+                  </span>
+                  <span class="hide-menu">Account Setting</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/landingpage/index.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-app-window"></i>
+                  </span>
+                  <span class="hide-menu">Landingpage</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout"></i>
+                  </span>
+                  <span class="hide-menu">Widgets</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/widgets-cards.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Cards</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/widgets-banners.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Banner</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/widgets-charts.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Charts</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/widgets-feeds.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Feeds</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/widgets-apps.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Apps</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/widgets-data.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Data</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">UI</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./ui-buttons.html" aria-expanded="false">
+                <i class="ti ti-layers-subtract"></i>
+                <span class="hide-menu">Buttons</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./ui-alerts.html" aria-expanded="false">
+                <i class="ti ti-alert-circle"></i>
+                <span class="hide-menu">Alerts</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./ui-card.html" aria-expanded="false">
+                <i class="ti ti-cards"></i>
+                <span class="hide-menu">Card</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./ui-forms.html" aria-expanded="false">
+                <i class="ti ti-file-text"></i>
+                <span class="hide-menu">Forms</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./ui-typography.html" aria-expanded="false">
+                <i class="ti ti-typography"></i>
+                <span class="hide-menu">Typography</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout-grid"></i>
+                  </span>
+                  <span class="hide-menu">Ui Elements</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-accordian.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Accordian</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-badge.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Badge</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-dropdowns.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Dropdowns</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-modals.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Modals</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-tab.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Tab</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-tooltip-popover.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Tooltip & Popover</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-notification.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Notification</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-progressbar.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Progressbar</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-pagination.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Pagination</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-bootstrap-ui.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Bootstrap UI</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-breadcrumb.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Breadcrumb</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-offcanvas.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Offcanvas</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-lists.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Lists</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-grid.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Grid</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-carousel.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Carousel</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-scrollspy.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Scrollspy</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-spinner.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Spinner</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-link.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Link</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-components"></i>
+                  </span>
+                  <span class="hide-menu">Components</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/component-sweetalert.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Sweet Alert</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/component-nestable.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Nestable</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/component-noui-slider.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Noui slider</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/component-rating.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Rating</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/component-toastr.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Toastr</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-cards"></i>
+                  </span>
+                  <span class="hide-menu">Cards</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-cards.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Basic Cards</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-card-customs.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Custom Cards</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-card-weather.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Weather Cards</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/ui-card-draggable.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Draggable Cards</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Forms</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-file-text"></i>
+                  </span>
+                  <span class="hide-menu">Elements</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-inputs.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Forms Input</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-input-groups.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Input Groups</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-input-grid.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Input Grid</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-checkbox-radio.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Checkbox & Radios</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-bootstrap-switch.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Bootstrap Switch</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-select2.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Select2</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-qrcode"></i>
+                  </span>
+                  <span class="hide-menu">Form Addons</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-dropzone.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Dropzone</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-mask.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Form Mask</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-typeahead.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Form Typehead</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-files"></i>
+                  </span>
+                  <span class="hide-menu">Forms Inputs</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-basic.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Basic Form</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-horizontal.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Form Horizontal</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-actions.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Form Actions</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-row-separator.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Row Separator</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-bordered.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Form Bordered</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-detail.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Form Detail</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-striped-row.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Striped Rows</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-floating-input.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Form Floating Input</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-alert-circle"></i>
+                  </span>
+                  <span class="hide-menu">Validation</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-bootstrap-validation.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Bootstrap Validation</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-custom-validation.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Custom Validation</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-file-pencil"></i>
+                  </span>
+                  <span class="hide-menu">Form Pickers</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-picker-colorpicker.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Colorpicker</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-picker-bootstrap-rangepicker.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Rangepicker</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-picker-bootstrap-datepicker.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">BT Datepicker</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-picker-material-datepicker.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">MT Datepicker</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-dna"></i>
+                  </span>
+                  <span class="hide-menu">Form Editors</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1 me-3">Pro</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-editor-quill.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Quill Editor</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link justify-content-between" target="_blank"
+                    href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-editor-tinymce.html">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="round-16 d-flex align-items-center justify-content-center">
+                        <i class="ti ti-circle"></i>
+                      </div>
+                      <span class="hide-menu">Tinymce Edtor</span>
+                    </div>
+                    <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-wizard.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-files"></i>
+                  </span>
+                  <span class="hide-menu">Form Wizard</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/form-repeater.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-topology-star-3"></i>
+                  </span>
+                  <span class="hide-menu">Form Repeater</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Bootstrap Tables</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/table-basic.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout-sidebar"></i>
+                  </span>
+                  <span class="hide-menu">Basic Table</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/table-dark-basic.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout-sidebar"></i>
+                  </span>
+                  <span class="hide-menu">Dark Table</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/table-sizing.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout-sidebar"></i>
+                  </span>
+                  <span class="hide-menu">Sizing Table</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/table-layout-coloured.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-layout-sidebar"></i>
+                  </span>
+                  <span class="hide-menu">Coloured Table</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Datatables</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/table-datatable-basic.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-air-conditioning-disabled"></i>
+                  </span>
+                  <span class="hide-menu">Basic</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/table-datatable-api.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-air-conditioning-disabled"></i>
+                  </span>
+                  <span class="hide-menu">API</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/table-datatable-advanced.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-air-conditioning-disabled"></i>
+                  </span>
+                  <span class="hide-menu">Advanced</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Charts</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/chart-apex-line.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-chart-line"></i>
+                  </span>
+                  <span class="hide-menu">Line Chart</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/chart-apex-area.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-chart-area"></i>
+                  </span>
+                  <span class="hide-menu">Area Chart</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/chart-apex-bar.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-chart-bar"></i>
+                  </span>
+                  <span class="hide-menu">Bar Chart</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/chart-apex-pie.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-chart-bar"></i>
+                  </span>
+                  <span class="hide-menu">Pie Chart</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/chart-apex-radial.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-chart-arcs"></i>
+                  </span>
+                  <span class="hide-menu">Radial Chart</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/chart-apex-radar.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-chart-radar"></i>
+                  </span>
+                  <span class="hide-menu">Radar Chart</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Auth</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
+                <i class="ti ti-login"></i>
+                <span class="hide-menu">Login</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-login.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-login"></i>
+                  </span>
+                  <span class="hide-menu">Side Login</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
+                <i class="ti ti-user-plus"></i>
+                <span class="hide-menu">Register</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-register.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-user-plus"></i>
+                  </span>
+                  <span class="hide-menu">Side Register</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-forgot-password.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-rotate"></i>
+                  </span>
+                  <span class="hide-menu">Side Forgot Pwd</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-forgot-password2.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-rotate"></i>
+                  </span>
+                  <span class="hide-menu">Boxed Forgot Pwd</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-two-steps.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-zoom-code"></i>
+                  </span>
+                  <span class="hide-menu">Side Two Steps</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-two-steps2.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-zoom-code"></i>
+                  </span>
+                  <span class="hide-menu">Boxed Two Steps</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-error.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-alert-circle"></i>
+                  </span>
+                  <span class="hide-menu">Error</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/authentication-maintenance.html"
+                aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-settings"></i>
+                  </span>
+                  <span class="hide-menu">Maintenance</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Extra</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link justify-content-between" target="_blank"
+                href="https://bootstrapdemos.adminmart.com/modernize/dist/main/icon-solar.html" aria-expanded="false">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="d-flex">
+                    <i class="ti ti-mood-smile"></i>
+                  </span>
+                  <span class="hide-menu">Solar Icon</span>
+                </div>
+                <span class="hide-menu badge text-bg-secondary fs-1 py-1">Pro</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
+                <i class="ti ti-archive"></i>
+                <span class="hide-menu">Tabler Icon</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./sample-page.html" aria-expanded="false">
+                <i class="ti ti-file"></i>
+                <span class="hide-menu">Sample Page</span>
+              </a>
+            </li>
+          </ul>
+          <div class="unlimited-access hide-menu bg-light-secondary position-relative mb-7 mt-5 rounded">
+            <div class="d-flex">
+              <div class="unlimited-access-title me-3">
+                <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Check Pro Version</h6>
+                <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56" target="_blank"
+                  class="btn btn-secondary fs-2 fw-semibold">Check</a>
+              </div>
+              <div class="unlimited-access-img">
+                <img src="../assets/images/backgrounds/rocket.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+    </aside>
+    <!--  Sidebar End -->
+    <!--  Main wrapper -->
+    <div class="body-wrapper">
+      <!--  Header Start -->
+      <header class="app-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item d-block d-xl-none">
+              <a class="nav-link sidebartoggler " id="headerCollapse" href="javascript:void(0)">
+                <i class="ti ti-menu-2"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="javascript:void(0)" id="drop1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="ti ti-bell"></i>
+                <div class="notification bg-primary rounded-circle"></div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-animate-up" aria-labelledby="drop1">
+                <div class="message-body">
+                  <a href="javascript:void(0)" class="dropdown-item">
+                    Item 1
+                  </a>
+                  <a href="javascript:void(0)" class="dropdown-item">
+                    Item 2
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
+            <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+              <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56" target="_blank"
+                class="btn btn-primary">Check Pro Template</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="../assets/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle">
+                </a>
+                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                  <div class="message-body">
+                    <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                      <i class="ti ti-user fs-6"></i>
+                      <p class="mb-0 fs-3">My Profile</p>
+                    </a>
+                    <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                      <i class="ti ti-mail fs-6"></i>
+                      <p class="mb-0 fs-3">My Account</p>
+                    </a>
+                    <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
+                      <i class="ti ti-list-check fs-6"></i>
+                      <p class="mb-0 fs-3">My Task</p>
+                    </a>
+                    <a href="./authentication-login.html" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!--  Header End -->
+      <div class="body-wrapper-inner">
+        <div class="container-fluid">
+          <!--  Row 1 -->
+          <div class="row">
+            <div class="col-lg-8 d-flex align-items-strech">
+              <div class="card w-100">
+                <div class="card-body">
+                  <div class="d-sm-flex d-block align-items-center justify-content-between mb-9">
+                    <div class="mb-3 mb-sm-0">
+                      <h5 class="card-title fw-semibold">Sales Overview</h5>
+                    </div>
+                    <div>
+                      <select class="form-select">
+                        <option value="1">March 2025</option>
+                        <option value="2">April 2025</option>
+                        <option value="3">May 2025</option>
+                        <option value="4">June 2025</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div id="chart"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <!-- Yearly Breakup -->
+                  <div class="card overflow-hidden">
+                    <div class="card-body p-4">
+                      <h5 class="card-title mb-9 fw-semibold">Yearly Breakup</h5>
+                      <div class="row align-items-center">
+                        <div class="col-7">
+                          <h4 class="fw-semibold mb-3">$36,358</h4>
+                          <div class="d-flex align-items-center mb-3">
+                            <span
+                              class="me-1 rounded-circle bg-light-success round-20 d-flex align-items-center justify-content-center">
+                              <i class="ti ti-arrow-up-left text-success"></i>
+                            </span>
+                            <p class="text-dark me-1 fs-3 mb-0">+9%</p>
+                            <p class="fs-3 mb-0">last year</p>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <div class="me-4">
+                              <span class="round-8 bg-primary rounded-circle me-2 d-inline-block"></span>
+                              <span class="fs-2">2025</span>
+                            </div>
+                            <div>
+                              <span class="round-8 bg-light-primary rounded-circle me-2 d-inline-block"></span>
+                              <span class="fs-2">2024</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-5">
+                          <div class="d-flex justify-content-center">
+                            <div id="breakup"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <!-- Monthly Earnings -->
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row alig n-items-start">
+                        <div class="col-8">
+                          <h5 class="card-title mb-9 fw-semibold"> Monthly Earnings </h5>
+                          <h4 class="fw-semibold mb-3">$6,820</h4>
+                          <div class="d-flex align-items-center pb-1">
+                            <span
+                              class="me-2 rounded-circle bg-light-danger round-20 d-flex align-items-center justify-content-center">
+                              <i class="ti ti-arrow-down-right text-danger"></i>
+                            </span>
+                            <p class="text-dark me-1 fs-3 mb-0">+9%</p>
+                            <p class="fs-3 mb-0">last year</p>
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="d-flex justify-content-end">
+                            <div
+                              class="text-white bg-secondary rounded-circle p-6 d-flex align-items-center justify-content-center">
+                              <i class="ti ti-currency-dollar fs-6"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="earning"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex align-items-stretch">
+              <div class="card w-100">
+                <div class="card-body p-4">
+                  <div class="mb-4">
+                    <h5 class="card-title fw-semibold">Recent Transactions</h5>
+                  </div>
+                  <ul class="timeline-widget mb-0 position-relative mb-n5">
+                    <li class="timeline-item d-flex position-relative overflow-hidden">
+                      <div class="timeline-time text-dark flex-shrink-0 text-end">09:30</div>
+                      <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                        <span class="timeline-badge border-2 border border-primary flex-shrink-0 my-8"></span>
+                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                      </div>
+                      <div class="timeline-desc fs-3 text-dark mt-n1">Payment received from John Doe of $385.90</div>
+                    </li>
+                    <li class="timeline-item d-flex position-relative overflow-hidden">
+                      <div class="timeline-time text-dark flex-shrink-0 text-end">10:00 am</div>
+                      <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                        <span class="timeline-badge border-2 border border-info flex-shrink-0 my-8"></span>
+                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                      </div>
+                      <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a
+                          href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
+                      </div>
+                    </li>
+                    <li class="timeline-item d-flex position-relative overflow-hidden">
+                      <div class="timeline-time text-dark flex-shrink-0 text-end">12:00 am</div>
+                      <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                        <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span>
+                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                      </div>
+                      <div class="timeline-desc fs-3 text-dark mt-n1">Payment was made of $64.95 to Michael</div>
+                    </li>
+                    <li class="timeline-item d-flex position-relative overflow-hidden">
+                      <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div>
+                      <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                        <span class="timeline-badge border-2 border border-warning flex-shrink-0 my-8"></span>
+                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                      </div>
+                      <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a
+                          href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
+                      </div>
+                    </li>
+                    <li class="timeline-item d-flex position-relative overflow-hidden">
+                      <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div>
+                      <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                        <span class="timeline-badge border-2 border border-danger flex-shrink-0 my-8"></span>
+                        <span class="timeline-badge-border d-block flex-shrink-0"></span>
+                      </div>
+                      <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New arrival recorded
+                      </div>
+                    </li>
+                    <li class="timeline-item d-flex position-relative overflow-hidden">
+                      <div class="timeline-time text-dark flex-shrink-0 text-end">12:00 am</div>
+                      <div class="timeline-badge-wrap d-flex flex-column align-items-center">
+                        <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span>
+                      </div>
+                      <div class="timeline-desc fs-3 text-dark mt-n1">Payment Done</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 d-flex align-items-stretch">
+              <div class="card w-100">
+                <div class="card-body">
+                  <div class="d-sm-flex d-block align-items-center justify-content-between mb-7">
+                    <div class="mb-3 mb-sm-0">
+                      <h4 class="card-title fw-semibold">Top Performers</h4>
+                      <p class="card-subtitle">Best Employees</p>
+                    </div>
+                    <div>
+                      <select class="form-select">
+                        <option value="1">March 2025</option>
+                        <option value="2">April 2025</option>
+                        <option value="3">May 2025</option>
+                        <option value="4">June 2025</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="table-responsive">
+                    <table class="table align-middle text-nowrap mb-0">
+                      <thead>
+                        <tr class="text-muted fw-semibold">
+                          <th scope="col" class="ps-0">Assigned</th>
+                          <th scope="col">Project</th>
+                          <th scope="col">Priority</th>
+                          <th scope="col">Budget</th>
+                        </tr>
+                      </thead>
+                      <tbody class="border-top">
+                        <tr>
+                          <td class="ps-0">
+                            <div class="d-flex align-items-center">
+                              <div class="me-2 pe-1">
+                                <img src="../assets/images/profile/user-3.jpg" class="rounded-circle" width="40"
+                                  height="40" alt="modernize-img" />
+                              </div>
+                              <div>
+                                <h6 class="fw-semibold mb-1">Sunil Joshi</h6>
+                                <p class="fs-2 mb-0 text-muted">
+                                  Web Designer
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <p class="mb-0 fs-3">Elite Admin</p>
+                          </td>
+                          <td>
+                            <span class="badge fw-semibold py-1 w-85 bg-primary-subtle text-primary">Low</span>
+                          </td>
+                          <td>
+                            <p class="fs-3 text-dark mb-0">$3.9K</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="ps-0">
+                            <div class="d-flex align-items-center">
+                              <div class="me-2 pe-1">
+                                <img src="../assets/images/profile/user-5.jpg" class="rounded-circle" width="40"
+                                  height="40" alt="modernize-img" />
+                              </div>
+                              <div>
+                                <h6 class="fw-semibold mb-1">John Deo</h6>
+                                <p class="fs-2 mb-0 text-muted">
+                                  Web Developer
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <p class="mb-0 fs-3">Flexy Admin</p>
+                          </td>
+                          <td>
+                            <span class="badge fw-semibold py-1 w-85 bg-warning-subtle text-warning">Medium</span>
+                          </td>
+                          <td>
+                            <p class="fs-3 text-dark mb-0">$24.5K</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="ps-0">
+                            <div class="d-flex align-items-center">
+                              <div class="me-2 pe-1">
+                                <img src="../assets/images/profile/user-7.jpg" class="rounded-circle" width="40"
+                                  height="40" alt="modernize-img" />
+                              </div>
+                              <div>
+                                <h6 class="fw-semibold mb-1">Yuvraj Sheth</h6>
+                                <p class="fs-2 mb-0 text-muted">
+                                  Project Manager
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <p class="mb-0 fs-3">Xtreme Admin</p>
+                          </td>
+                          <td>
+                            <span class="badge fw-semibold py-1 w-85 bg-success-subtle text-success">Low</span>
+                          </td>
+                          <td>
+                            <p class="fs-3 text-dark mb-0">$4.8K</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="border-0 ps-0">
+                            <div class="d-flex align-items-center">
+                              <div class="me-2 pe-1">
+                                <img src="../assets/images/profile/user-6.jpg" class="rounded-circle" width="40"
+                                  height="40" alt="modernize-img" />
+                              </div>
+                              <div>
+                                <h6 class="fw-semibold mb-1">Micheal Doe</h6>
+                                <p class="fs-2 mb-0 text-muted">
+                                  Content Writer
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                          <td class="border-0">
+                            <p class="mb-0 fs-3">Helping Hands WP Theme</p>
+                          </td>
+                          <td class="border-0">
+                            <span class="badge fw-semibold py-1 w-85 bg-danger-subtle text-danger">High</span>
+                          </td>
+                          <td class="border-0">
+                            <p class="fs-3 text-dark mb-0">$9.3K</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+              <div class="card overflow-hidden rounded-2">
+                <div class="position-relative">
+                  <a href="javascript:void(0)"><img src="../assets/images/products/s4.jpg"
+                      class="card-img-top rounded-0" alt="..."></a>
+                  <a href="javascript:void(0)"
+                    class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3"
+                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i
+                      class="ti ti-basket fs-4"></i></a>
+                </div>
+                <div class="card-body pt-3 p-4">
+                  <h6 class="fw-semibold fs-4">Boat Headphone</h6>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h6 class="fw-semibold fs-4 mb-0">$50 <span
+                        class="ms-2 fw-normal text-muted fs-3"><del>$65</del></span></h6>
+                    <ul class="list-unstyled d-flex align-items-center mb-0">
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+              <div class="card overflow-hidden rounded-2">
+                <div class="position-relative">
+                  <a href="javascript:void(0)"><img src="../assets/images/products/s5.jpg"
+                      class="card-img-top rounded-0" alt="..."></a>
+                  <a href="javascript:void(0)"
+                    class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3"
+                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i
+                      class="ti ti-basket fs-4"></i></a>
+                </div>
+                <div class="card-body pt-3 p-4">
+                  <h6 class="fw-semibold fs-4">MacBook Air Pro</h6>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h6 class="fw-semibold fs-4 mb-0">$650 <span
+                        class="ms-2 fw-normal text-muted fs-3"><del>$900</del></span></h6>
+                    <ul class="list-unstyled d-flex align-items-center mb-0">
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+              <div class="card overflow-hidden rounded-2">
+                <div class="position-relative">
+                  <a href="javascript:void(0)"><img src="../assets/images/products/s7.jpg"
+                      class="card-img-top rounded-0" alt="..."></a>
+                  <a href="javascript:void(0)"
+                    class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3"
+                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i
+                      class="ti ti-basket fs-4"></i></a>
+                </div>
+                <div class="card-body pt-3 p-4">
+                  <h6 class="fw-semibold fs-4">Red Valvet Dress</h6>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h6 class="fw-semibold fs-4 mb-0">$150 <span
+                        class="ms-2 fw-normal text-muted fs-3"><del>$200</del></span></h6>
+                    <ul class="list-unstyled d-flex align-items-center mb-0">
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+              <div class="card overflow-hidden rounded-2">
+                <div class="position-relative">
+                  <a href="javascript:void(0)"><img src="../assets/images/products/s11.jpg"
+                      class="card-img-top rounded-0" alt="..."></a>
+                  <a href="javascript:void(0)"
+                    class="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3"
+                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i
+                      class="ti ti-basket fs-4"></i></a>
+                </div>
+                <div class="card-body pt-3 p-4">
+                  <h6 class="fw-semibold fs-4">Cute Soft Teddybear</h6>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h6 class="fw-semibold fs-4 mb-0">$285 <span
+                        class="ms-2 fw-normal text-muted fs-3"><del>$345</del></span></h6>
+                    <ul class="list-unstyled d-flex align-items-center mb-0">
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="me-1" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                      <li><a class="" href="javascript:void(0)"><i class="ti ti-star text-warning"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="py-6 px-6 text-center">
+            <p class="mb-0 fs-4">Design and Developed by <a href="https://adminmart.com/" target="_blank"
+                class="pe-1 text-primary text-decoration-underline">AdminMart.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/sidebarmenu.js"></script>
+  <script src="../assets/js/app.min.js"></script>
+  <script src="../assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+  <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
+  <script src="../assets/js/dashboard.js"></script>
+  <!-- solar icons -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
+
+</html>

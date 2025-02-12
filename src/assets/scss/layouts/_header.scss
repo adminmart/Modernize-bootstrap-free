@@ -1,0 +1,105 @@
+// ----------------------------------------------
+// Header Style
+// ----------------------------------------------
+
+.app-topstrip{
+  position: fixed;
+  top: 0;
+  z-index: 12;
+}
+
+.app-header {
+  position: relative;
+  z-index: 50;
+  width: 100%;
+  background: var(--bs-body-bg);
+  padding: 0 10px;
+  top: 65px;
+
+  @include media-breakpoint-down(lg){
+    top: 131px;
+  }
+
+  .container-fluid {
+    max-width: $boxed-width;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  .navbar {
+    min-height: $header-height;
+    padding: 0;
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: $navlink-padding;
+          line-height: $header-height;
+          height: $header-height;
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          font-size: 20px;
+          z-index: 2;
+
+          i {
+            font-size: 20px;
+          }
+
+          &:hover {
+            color: var(--bs-primary);
+          }
+        }
+      }
+    }
+  }
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  min-width: 200px;
+
+  .dropdown-item {
+    border-radius: 8px;
+  }
+
+}
+
+.notification {
+  content: "";
+  position: absolute;
+  top: 22px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+}
+
+@include media-breakpoint-down(lg) {
+  .app-header {
+    .navbar {
+      flex-wrap: nowrap;
+
+      .navbar-nav {
+        flex-direction: row;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item.dropdown {
+    position: static;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .w-xs-100 {
+    width: 100% !important;
+  }
+}

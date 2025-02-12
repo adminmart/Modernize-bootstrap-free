@@ -1,0 +1,130 @@
+// ----------------------------------------------
+// Layout Style
+// ----------------------------------------------
+
+body {
+  font-family: $font-family-sans-serif !important;
+  background-color: #f6f8fb;
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+.body-wrapper {
+  position: relative;
+  border-radius: 20px;
+
+  .body-wrapper-inner{
+    min-height: calc(100vh - 110px);
+  }
+
+  .container-fluid {
+    max-width: $boxed-width;
+    margin: 0 auto;
+    padding: $grid-gutter-width;
+    transition: 0.2s ease-in;
+    padding-top: 180px;
+
+    @include media-breakpoint-down(lg){
+      padding-top: 230px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .body-wrapper {
+    >.container-fluid {
+      padding: 30px 20px;
+    }
+  }
+}
+
+.simplebar-scrollbar:before {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+#main-wrapper[data-layout="vertical"] {
+
+  // Sidebar position
+  &[data-sidebar-position="fixed"] {
+    .left-sidebar {
+      position: fixed;
+      top: 65px;
+
+      @include media-breakpoint-down(lg){
+        top: 131px;
+      }
+    }
+  }
+
+  // Header position
+  &[data-header-position="fixed"] {
+    .app-header {
+      position: fixed;
+      z-index: 10;
+    }
+
+    .body-wrapper {
+      >.container-fluid {
+        padding-top: calc(#{$header-height} + 30px);
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  #main-wrapper[data-layout="vertical"] {
+
+    // Fixed Header + Minisidebar
+    &[data-header-position="fixed"][data-sidebartype="mini-sidebar"] {
+      .app-header {
+        width: calc(100%);
+      }
+    }
+
+    // Header position
+    &[data-header-position="fixed"] {
+      .app-header {
+        width: calc(100% - #{$sidebar-width-full});
+      }
+    }
+
+    // Full Sidebar
+    &[data-sidebartype="full"] {
+      .body-wrapper {
+        margin-left: $sidebar-width-full;
+      }
+    }
+
+  }
+}
+
+//
+// Responsive view (below desktop view)
+//
+@media (max-width: 1199px) {
+  #main-wrapper[data-layout="vertical"] {
+
+    &[data-sidebartype="mini-sidebar"],
+    &[data-sidebartype="full"] {
+      .left-sidebar {
+        left: -$sidebar-width-full;
+        top: 0;
+      }
+
+      &.show-sidebar {
+        .left-sidebar {
+          left: 0;
+          box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        }
+      }
+    }
+
+  }
+  .left-sidebar {
+    .scroll-sidebar {
+      height: calc(100vh - 80px);
+    }
+  }
+}

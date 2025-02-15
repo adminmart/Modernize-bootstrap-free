@@ -193,7 +193,7 @@ Modernize Bootstrap 5 admin Template
 
 <!-- Licensing of Template -->
 # Licensing
-- <p>Copyright 2023 Adminmart <a href="https://adminmart.com/?ref=5">https://adminmart.com/</a></p>
+- <p>Copyright 2025 Adminmart <a href="https://adminmart.com/?ref=5">https://adminmart.com/</a></p>
 - <p>Licensed under MIT <a href="https://adminmart.com/license/?ref=5">https://adminmart.com/license/</a></p>
 
 

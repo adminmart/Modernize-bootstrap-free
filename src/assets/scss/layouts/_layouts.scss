@@ -15,7 +15,7 @@ body {
   position: relative;
   border-radius: 20px;
 
-  .body-wrapper-inner{
+  .body-wrapper-inner {
     min-height: calc(100vh - 110px);
   }
 
@@ -26,7 +26,7 @@ body {
     transition: 0.2s ease-in;
     padding-top: 180px;
 
-    @include media-breakpoint-down(lg){
+    @include media-breakpoint-down(lg) {
       padding-top: 230px;
     }
   }
@@ -52,7 +52,7 @@ body {
       position: fixed;
       top: 65px;
 
-      @include media-breakpoint-down(lg){
+      @include media-breakpoint-down(lg) {
         top: 131px;
       }
     }
@@ -116,12 +116,13 @@ body {
       &.show-sidebar {
         .left-sidebar {
           left: 0;
-          box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
         }
       }
     }
 
   }
+
   .left-sidebar {
     .scroll-sidebar {
       height: calc(100vh - 80px);

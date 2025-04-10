@@ -36,37 +36,12 @@
     }
 }
 
-.animated-gradient {
-    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
-    background-size: 600%;
-    -webkit-animation: anime 16s linear infinite;
-    animation: anime 16s linear infinite;
-}
 
-@-webkit-keyframes anime {
-    0% {
-        background-position: 0% 50%;
-    }
+.btn-gredient {
+    border: 0;
+    background: linear-gradient(94deg, #9f8be9 0, #e577ac 53.08%, #ed7853 97.99%), rgba(255, 255, 255, .05);
 
-    50% {
-        background-position: 100% 50%;
+    &:hover{
+        background: linear-gradient(90deg, #ed7853 0, #e577ac 53.08%, #9f8be9 97.99%);
     }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-@keyframes anime {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
+} 

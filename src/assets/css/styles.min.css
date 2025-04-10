@@ -16235,4 +16235,12 @@ ul {
   border: 2px solid #5D87FF;
 }
 
+.btn-gredient {
+  border: 0;
+  background: linear-gradient(94deg, #9f8be9 0, #e577ac 53.08%, #ed7853 97.99%), rgba(255, 255, 255, 0.05);
+}
+.btn-gredient:hover {
+  background: linear-gradient(90deg, #ed7853 0, #e577ac 53.08%, #9f8be9 97.99%);
+}
+
 /*# sourceMappingURL=styles.min.css.map */

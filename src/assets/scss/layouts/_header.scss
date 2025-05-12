@@ -1,11 +1,70 @@
 // ----------------------------------------------
 // Header Style
 // ----------------------------------------------
+/* Checkout Pro Version */
+
 
 .app-topstrip {
   position: fixed;
   top: 0;
   z-index: 12;
+  background: linear-gradient(90deg, #001138 0%, #001E66 100%);
+
+  .text-linear-gradient {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FFFFFF 0%, #3772FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .border-opacity-40 {
+    --bs-border-opacity: 0.4;
+  }
+
+  .live-preview-drop {
+    border-radius: 4px !important;
+
+    &:hover,
+    &:active {
+      background-color: #3772FF;
+    }
+
+    &.show {
+      background-color: #3772FF;
+    }
+  }
+
+  .get-pro-btn {
+    background-color: #3772FF;
+
+    &:hover {
+      background-color: #5D87FF;
+    }
+  }
+
+  .link-hover {
+    &:hover {
+      color: #5D87FF !important;
+    }
+  }
+
+  .dropdown-menu {
+    min-width: 280px;
+    box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.12);
+
+    .dropdown-item {
+      font-size: 16px;
+      color: #000C29;
+      padding: 12px 18px;
+
+      &:hover {
+        background: rgba(0, 12, 41, 0.05);
+      }
+    }
+  }
 }
 
 .app-header {
@@ -14,10 +73,14 @@
   width: 100%;
   background: var(--bs-body-bg);
   padding: 0 10px;
-  top: 65px;
+  top: 72px;
 
-  @include media-breakpoint-down(lg) {
-    top: 131px;
+  @include media-breakpoint-down(lg){
+    top: 150px;
+  }
+
+  @include media-breakpoint-down(sm){
+    top: 104px;
   }
 
   .container-fluid {

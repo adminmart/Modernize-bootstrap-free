@@ -15,119 +15,96 @@
     data-sidebar-position="fixed" data-header-position="fixed">
 
     <!--  App Topstrip -->
-    <div class="app-topstrip bg-dark py-6 px-3 w-100 d-lg-flex align-items-center justify-content-between">
-      <div class="d-flex align-items-center justify-content-center gap-4 mb-2 mb-lg-0">
-        <a class="d-flex justify-content-center" href="https://adminmart.com/" target="_blank">
-          <img src="../assets/images/logos/logo-adminmart.svg" alt="">
+    <div class="app-topstrip bg-dark py-3 px-4 w-100 d-lg-flex align-items-center justify-content-between">
+      <div class="d-none d-sm-flex align-items-center justify-content-center gap-9 mb-3 mb-lg-0">
+        <a class="d-flex justify-content-center" href="https://www.wrappixel.com/" target="_blank">
+          <img src="../assets/images/logos/logo-adminmart.svg" alt="" width="150">
         </a>
 
-        <div class="d-none d-xl-flex align-items-center gap-3">
-          <a href="https://adminmart.com/support/"
-            class="btn btn-outline-primary d-flex align-items-center gap-1 border-0 text-white px-6">
-            <i class="ti ti-lifebuoy fs-5"></i>
-            Support
-          </a>
-          <a href="https://adminmart.com/templates/bootstrap-admin/"
-            class="btn btn-outline-primary d-flex align-items-center gap-1 border-0 text-white px-6">
-            <i class="ti ti-gift fs-5"></i>
+        <div class="d-none d-xl-flex align-items-center gap-3 border-start border-white border-opacity-25 ps-9">
+          <a target="_blank" href="https://adminmart.com/templates/bootstrap/"
+            class="link-hover d-flex align-items-center gap-2 border-0 text-white lh-sm fs-4">
+            <iconify-icon class="fs-6" icon="solar:window-frame-linear"></iconify-icon>
             Templates
           </a>
-          <a href="https://adminmart.com/hire-us/"
-            class="btn btn-outline-primary d-flex align-items-center gap-1 border-0 text-white px-6">
-            <i class="ti ti-briefcase fs-5"></i>
+          <a target="_blank" href="https://adminmart.com/support/"
+            class="link-hover d-flex align-items-center gap-2 border-0 text-white lh-sm fs-4">
+            <iconify-icon class="fs-6" icon="solar:question-circle-linear"></iconify-icon>
+            Help
+          </a>
+          <a target="_blank" href="https://adminmart.com/hire-us/"
+            class="link-hover d-flex align-items-center gap-2 border-0 text-white lh-sm fs-4">
+            <iconify-icon class="fs-6" icon="solar:case-round-linear"></iconify-icon>
             Hire Us
           </a>
         </div>
       </div>
 
-      <div class="d-lg-flex align-items-center gap-2">
-        <h3 class="text-white mb-2 mb-lg-0 fs-5 text-center">Check Pro Versions</h3>
-        <div class="d-flex align-items-center justify-content-center gap-2">
-          <div class="dropdown d-flex">
-            <a class="btn btn-outline-primary d-flex align-items-center gap-1" href="javascript:void(0)" id="drop3"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="ti ti-device-laptop fs-5"></i>
-              Live Preview
-              <i class="ti ti-chevron-down fs-5"></i>
-            </a>
-            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop3">
-              <div class="message-body">
-                <a target="_blank" href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56#product-demo-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/bt-cat-icon.svg" width="20" alt="bootstrap" />
-                  Bootstrap Preview
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56#product-demo-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/angular-cat-icon.svg" width="18" alt="angular" />
-                  Angular Preview
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56#product-demo-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/vue-cat-icon.svg" width="18" alt="vue" />
-                  VueJs Preview
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard/?ref=56#product-demo-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/next-cat-icon.svg" width="18" alt="next" />
-                  NextJs Preview
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56#product-demo-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/react-cat-icon.svg" width="18" alt="react" />
-                  React Preview
-                </a>
-                <a target="_blank"
-                  href="https://adminmart.com/product/modernize-tailwind-nextjs-dashboard-template/?ref=56#product-demo-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/tailwindcss.svg" width="18" alt="tailwind" />
-                  Tailwind Preview
-                </a>
+      <div class="d-lg-flex align-items-center gap-3">
+        <h3 class="text-linear-gradient mb-3 mb-lg-0 fs-3 text-uppercase text-center fw-semibold">Checkout Pro Version
+        </h3>
+        <div class="d-sm-flex align-items-center justify-content-center gap-8">
+          <div class="d-flex align-items-center justify-content-center gap-8">
+            <div class="dropdown d-flex">
+              <a class="btn live-preview-drop fs-4 lh-sm btn-outline-primary rounded border-white border border-opacity-40 text-white d-flex align-items-center gap-2 px-3 py-2"
+                href="javascript:void(0)" id="drop3" data-bs-toggle="dropdown" aria-expanded="false">
+                Live Preview
+                <iconify-icon class="fs-6" icon="solar:alt-arrow-down-linear"></iconify-icon>
+              </a>
+              <div class="dropdown-menu p-3 dropdown-menu-end dropdown-menu-animate-up overflow-hidden rounded"
+                aria-labelledby="drop3">
+                <div class="message-body">
+                  <a target="_blank"
+                    href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56#product-demo-section"
+                    class="dropdown-item rounded fw-normal d-flex align-items-center gap-6">
+                    <img src="../assets/images/svgs/bt-cat-icon.svg" width="20" alt="bootstrap" />
+                    Bootstrap Version
+                  </a>
+                  <a target="_blank"
+                    href="https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56#product-demo-section"
+                    class="dropdown-item rounded fw-normal d-flex align-items-center gap-6">
+                    <img src="../assets/images/svgs/angular-cat-icon.svg" width="18" alt="angular" />
+                    Angular Version
+                  </a>
+                  <a target="_blank"
+                    href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56#product-demo-section"
+                    class="dropdown-item rounded fw-normal d-flex align-items-center gap-6">
+                    <img src="../assets/images/svgs/react-cat-icon.svg" width="18" alt="react" />
+                    React Version
+                  </a>
+                  <a target="_blank"
+                    href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56#product-demo-section"
+                    class="dropdown-item rounded fw-normal d-flex align-items-center gap-6">
+                    <img src="../assets/images/svgs/vue-cat-icon.svg" width="18" alt="vue" />
+                    VueJs Version
+                  </a>
+                  <a target="_blank"
+                    href="https://adminmart.com/product/modernize-next-js-admin-dashboard/?ref=56#product-demo-section"
+                    class="dropdown-item rounded fw-normal d-flex align-items-center gap-6">
+                    <img src="../assets/images/svgs/next-cat-icon.svg" width="18" alt="next" />
+                    NextJs Version
+                  </a>
+                  <a target="_blank"
+                    href="https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/?ref=56#product-demo-section"
+                    class="dropdown-item rounded fw-normal d-flex align-items-center gap-6">
+                    <img src="../assets/images/svgs/nuxt-cat-icon.svg" width="18" alt="nuxt" />
+                    NuxtJs Version
+                  </a>
+                  <a target="_blank"
+                    href="https://adminmart.com/product/modernize-tailwind-nextjs-dashboard-template/?ref=56#product-demo-section"
+                    class="dropdown-item rounded fw-normal d-flex align-items-center gap-6">
+                    <img src="../assets/images/svgs/tailwindcss.svg" width="18" alt="tailwind" />
+                    Tailwind Version
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="dropdown d-flex">
-            <a class="btn btn-primary d-flex align-items-center gap-1 " href="javascript:void(0)" id="drop4"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="ti ti-shopping-cart fs-5"></i>
-              Buy Now
-              <i class="ti ti-chevron-down fs-5"></i>
+            <a target="_blank"
+              class="get-pro-btn rounded btn btn-primary d-flex align-items-center gap-2 fs-4 border-0 px-3 py-2"
+              href="https://adminmart.github.io/premium-documentation/bootstrap/modernize/index.html?ref=56#product-demo-section">
+              <iconify-icon class="fs-5" icon="solar:crown-linear"></iconify-icon>
+              Get Pro
             </a>
-            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop4">
-              <div class="message-body">
-                <a target="_blank" href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=56#product-price-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/bt-cat-icon.svg" width="20" alt="bootstrap" />
-                  Buy Bootstrap Version
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-angular-material-dashboard/?ref=56#product-price-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/angular-cat-icon.svg" width="18" alt="angular" />
-                  Buy Angular Version
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=56#product-price-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/vue-cat-icon.svg" width="18" alt="vue" />
-                  Buy VueJs Version
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-next-js-admin-dashboard/?ref=56#product-price-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/next-cat-icon.svg" width="18" alt="next" />
-                  Buy NextJs Version
-                </a>
-                <a target="_blank" href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=56#product-price-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/react-cat-icon.svg" width="18" alt="react" />
-                  Buy React Version
-                </a>
-                <a target="_blank"
-                  href="https://adminmart.com/product/modernize-tailwind-nextjs-dashboard-template/?ref=56#product-price-section"
-                  class="dropdown-item d-flex align-items-center gap-2">
-                  <img src="../assets/images/svgs/tailwindcss.svg" width="18" alt="tailwind" />
-                  Buy Tailwind Version
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>

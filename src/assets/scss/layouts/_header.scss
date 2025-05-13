@@ -38,16 +38,17 @@
   }
 
   .get-pro-btn {
+    border-radius: 4px !important;
     background-color: #3772FF;
 
     &:hover {
-      background-color: #5D87FF;
+      background-color: #5D87FF; 
     }
   }
 
   .link-hover {
     &:hover {
-      color: #5D87FF !important;
+      color: #5D87FF !important; 
     }
   }
 

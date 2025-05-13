@@ -16006,6 +16006,7 @@ textarea.form-control-lg {
   background-color: #3772FF;
 }
 .app-topstrip .get-pro-btn {
+  border-radius: 4px !important;
   background-color: #3772FF;
 }
 .app-topstrip .get-pro-btn:hover {

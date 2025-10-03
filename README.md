@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://adminmart.com/" target="_blank">
-      <img src="https://adminmart.github.io/template_api/images/brand-logo/adminmart-Logo.svg" alt="sneat-logo" width="200px" height="150px">
+      <img src="https://adminmart.github.io/template_api/images/brand-logo/adminmart-Logo.svg" alt="modernize-image" width="200px" height="150px">
    </a>
 </p>
 
